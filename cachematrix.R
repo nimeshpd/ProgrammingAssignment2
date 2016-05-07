@@ -6,7 +6,6 @@
 ## 3.set the value of the mean
 ## 4.get the value of the mean
 
-
 makeCacheMatrix <- function(x = matrix()) {
   invmatrix <- NULL
   set <- function(y) {
@@ -21,8 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinvmatrixerse = setinvmatrixerse,
        getinvmatrixerse = getinvmatrixerse)
 }
-
-
 
 ## cacheSolve: 
 ## This function computes the invmatrixerse of the special "matrix" returned by makeCacheMatrix above. 
